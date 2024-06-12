@@ -4,7 +4,7 @@ This is a serverless web application using various AWS services. Steps taken fro
 
 S3 bucket to host static web content, including HTML, CSS AND JavaScript files.
 
-Configure API Gateway(REST) to trigger Lambda functions. Set up GET and POST methods to interact with DynamoDB database.
+Configure API Gateway(REST) to trigger Lambda functions. Set up GET and POST methods to interact with DynamoDB database. Enable CORS
 
 Create Lambda functions in Python to handle the API Gateway requests. Functions to retrieve data from DynamoDB and insert new data into it. IAM role created to allow access to DynamoDB
 
